@@ -1,0 +1,69 @@
+/* animation */
+@keyframes slide-in {
+          from { transform: translateX(-100%); }
+          to { transform: translateX(0); }
+        }
+/* banner h1 */
+  .jd-on,
+  .des-1,
+.banner1
+{
+    animation: slide-in 1s 0s 1 forwards;
+  }
+  
+  /* banner p */
+.jd-ban
+{
+    animation: slide-out 1s 0s 1 forwards;
+  }
+  
+  /* banner btn */
+@keyframes pulse {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.1); }
+          100% { transform: scale(1); }
+        }
+  
+  #prix a,
+  .bouge,
+  .prix .btn {
+    animation: pulse 2s 5s infinite forwards;
+  }
+  
+  
+  /* banner p */
+  
+  @keyframes slide-out {
+          from { transform: translateY(100%); }
+          to { transform: translateX(0); }
+        }
+        
+  /* des-container */
+  @keyframes drop {
+          0% { transform: translateY(-100%); opacity: 0; }
+          100% { transform: translateY(0); opacity: 1; }
+        }
+  
+  .des-container {
+    
+  }
+  
+  .des-container .x,
+  .banner2,
+  .prix .x,
+  #bouge,
+ .contact .x{
+    /* display: inline-block; */
+    animation: drop 10s 5s infinite forwards;
+	text-align: center;
+  }
+ 
+ 
+ /* carte */
+    .description .des-container .des-2 .des-carte:hover,
+    .carte:hover,
+    .p-cart:hover{
+  
+  border-radius: 8px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}

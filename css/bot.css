@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: var(--body);
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /* --a:#ffffff; */
+    --body: #797979;
+    --acolor: #313131;
+    --ahover: #EF233C;
+    --hcolor: #414141;
+     --abg: rgb(11, 11, 95);
+    --psise: 18px;
+    --h1sise: 45px;
+    --h2sise: 30px;
+   
+}
+
+
+/* BOT  */
+.bot {
+    padding: 30px;
+    height: auto;
+    /* margin-top: 3%; */
+}
+
+.bot .bot-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    gap: 20px;
+}
+
+.bot .bot-container .bot-cart{
+    transition: transform 0.2s;
+    background: #f5f5f5;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bot .bot-container .bot-cart:hover {
+    transform: translate(-10px);
+}
+
+.bot .bot-container .bot-cart .bot-img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin: 0 auto;
+}
+
+.bot .bot-container .bot-cart .bot-img img:hover{
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.bot .bot-container .bot-cart .bot-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 500px;
+    border: 1px solid #000;
+    filter: brightness(70%);
+}
+
+.bot .bot-container .bot-cart .bot-title{
+    margin-bottom: 8%;
+    margin-top: 5%; 
+}
+
+.bot .bot-container .bot-cart .bot-title h3{
+    color: var(--hcolor);
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 500;
+   }
+
+   .bot .bot-container .bot-cart .bot-title h5{
+    color: var(--pcolor);
+    font-weight: 600;
+   }
+
+.bot .bot-container .bot-cart .bot-text{
+ margin-bottom: 8%;
+}
+
+.bot .bot-container .bot-cart .bot-text p{
+    font-size: 14px;
+   }
+
+
+
+.bot .bot-container .bot-cart .btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10%;
+
+}
+
+.bot .bot-container .bot-cart .btn a{
+    border-radius: 10px;    
+}
