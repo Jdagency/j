@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     color: var(--body);
     background: #ffffff;
