@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords"
+        content="JD-Agency, #jdagency, #jdagency_q, #jdagency_g, Kamga Jumael, KamgaJumael,Web Design, Ui/Ux design, web, Marketing, Digital, Africcode, develeppement, seo, applications mobile, e-commerce, agence digitale, solutions numeriques, applications sur mesure, sitevitrine, strategies digitales, optimisation seo, github, meta">
+    <meta name="description" content="Des Sites, App et Outils I-Tech chez JD-Agency (by Kamga Jumael)">
+    <meta name="author" content="Kamga Jumael">
+    <meta name="description" content="Chez JD-Agency nous concevons des Sites, App et Outils I-Tech Qu'attendez vous ??(by Kamga Jumael)">
+    <meta name="author" content="Kamga Jumael, JD-Agency">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+        <title>JD-Agency - Achat  By kamga Jumael</title>
+</head>
+<body>
+    
+
+    <header>
+        <nav class="nav-bar">
+            <h2 class="logo">
+                JD-<span class="logospan">Agency</span>
+            </h2>
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" name="" id="hamburger">
+            <div class="nav-links">
+                <ul>
+                    <li><a class="active" href="index.html">Accueil</a></li>
+                    <li><a href="index2.html">A Propos</a></li>
+                    <li><a href="index2.html#about">Services</a></li>
+                    <li><a href="index2.html#prix">Prix</a></li>
+                    <!-- <li><a href="blog.html">Blog</a></li>
+                    <li><a href="team.html">Team</a></li>-->
+                    <li><a href="#">Achat</a></li> 
+                     <li><a href="bot.html">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+         <!-- blog section start -->
+
+         <section class="blog" id="blog">
+            <div class="blog-container">
+                <div class="blog-text tt">
+                    <h2 class="after-center">JD-<span class="logospan">Agency</span> Achat</h2>
+                    <p class="after">Obtenez ce que vous voulez ici <br> Cliquer sur <b>Obtenir</b> et discutons sur whatsapp</p>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/tiktok.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">tik tok</h5>
+                           <p>Creation des comptes tik tok pouvant generer des revenus mensuels et ceci dans tout les pays (non-eligibles) et meme en afrique</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- 
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/neero.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">neero card</h5>
+                            <p>La carte de credit Neero est </p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Obtenir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/paysika.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">paysika card</h5>
+                                <p>Lorem  ipsum dolor, sit amet consectetur nemo dolorum maiores consequuntur officia pariatur quas odio deleniti adipisci tempore, odit ex quod reiciendis.</p>
+                                <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Obtenir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/paypal.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">paypal card</h5>
+                                <p>PayPal un moyen de paiement international envoi/reception d'argent utiliser le pour toutes vos transactions en ligne.</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/alibaba.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">alibaba shop</h5>
+                            <p>Alibaba est une plateforme dediee au achat en ligne depuis la chine vous pouvez commander et recevoir directement au pays</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/aliexpress.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">aliExpress shop</h5>
+                            <p>AliExpres est une plateforme dediee au achat en ligne depuis la chine vous pouvez commander et recevoir directement au pays</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/pinduoduo.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">pinduoduo shop</h5>
+                            <p>Pinduoduo est une plateforme dediee au achat en ligne depuis la chine vous pouvez commander et recevoir directement au pays</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/netflix3.jpeg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">netflix stream</h5>
+                            <p>Abonnement netflix offrez vous de bons moments peu importe ou vous vous trouvez ! des films, series et dessins animes s'offrent a vous</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/iptv.jpeg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">iptv no-limit</h5>
+                            <p>Abonnement iptv offrez vous de bons moments peu importe ou vous vous trouvez ! des films, series et dessins animes s'offrent a vous</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-items">
+                        <div class="card-img"><img src="./img/jd.jpg" alt="blog img"></div>
+                        <div class="blog-text">
+                            <h5 class="blog-title">conception web/Mobile</h5>
+                                <p>Nous concevons des solutions numeriques sur mesure afin de digitaliser et d'optimiser votre presence en ligne SEO offert</p>
+                            <div class="blog-flex">
+                                <img src="./img/jumy.png" alt="">
+                                <div class="btn">
+                                    <a href="">Acheter le service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- blog section end -->
+
+
+    </main>
+
+    <!-- FOOTER  -->
+    <section class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-flex">
+                <p><b style="font-size: 20px;">©</b> <b>JD-Agency 2024</b> All right reserved </p>
+                <p>Designed by <a href="https://www.facebook.com/61560590627451/posts/pfbid0HwHzpUPWsXWxNUiwWChL5pdLefrkHfKwCNN5vyxwXFtVRuAysTdvfabnJYqin6V3l/?app=fbl">JD-Agency</a></p>
+            </div>
+            <div class="footer-icon">
+                <a href="Facebook.comhttps://wa.me/237679454785?text=Hello"><img src="./img/zapp.jpg" alt=""> </a>
+                <img src="./img/insta.jpg" alt="">
+                
+                <a href="https://www.facebook.com/61560590627451/posts/pfbid02tBw7wysbQvyjJQCn9fpLzyLb4xtT1hjm1LvP7USgo47phWrCYE2q2vQE73T4eMnXl/?app=fbl"><img src="./img/face.jpg" alt=""></a>
+                
+                <a href="https://github.com/Jdagency"><img src="./img/git.jpg" alt=""></a>
+                
+                <a href="https://LinkedIn.com"><img src="./img/link.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
